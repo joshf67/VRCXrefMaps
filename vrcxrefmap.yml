@@ -15,7 +15,7 @@
 
 sorted: true 
  references: 
-- uid: DataToken
+- uid: VRC.SDK3.Data.DataToken
  name: DataToken 
  name.vb:
  href: https://docs.vrchat.com/docs/data-tokens
@@ -26,7 +26,7 @@ sorted: true
  nameWithType: VRC.SDK3.Data.DataToken
  nameWithType.vb:
  IsValid: true
-- uid: DataDictionary
+- uid: VRC.SDK3.Data.DataDictionary
  name: DataDictionary 
  name.vb:
  href: https://docs.vrchat.com/docs/data-dictionaries
@@ -37,7 +37,7 @@ sorted: true
  nameWithType: VRC.SDK3.Data.DataDictionary
  nameWithType.vb:
  IsValid: true
-- uid: DataList
+- uid: VRC.SDK3.Data.DataList
  name: DataList 
  name.vb:
  href: https://docs.vrchat.com/docs/data-lists
