@@ -45,6 +45,17 @@ references:
   nameWithType: VRC.SDKBase.Utilities
   nameWithType.vb:
   IsValid: true
+- uid: VRC.SDKBase.Utilities
+  name: Utilities
+  name.vb:
+  href: https://udonsharp.docs.vrchat.com/vrchat-api/#utilities
+  commentId: T:VRC.SDKBase.Utilities
+  isSpec:
+  fullName: VRC.SDKBase.Utilities
+  fullName.vb:
+  nameWithType: VRC.SDKBase.Utilities
+  nameWithType.vb:
+  IsValid: true
 - uid: VRC.SDK3.Components.VRCStation
   name: VRCStation
   name.vb:
@@ -78,15 +89,15 @@ references:
   nameWithType: VRC.SDKBase.Networking
   nameWithType.vb:
   IsValid: true
-- uid: structVRC.SDKBase.VRCPlayerApi.TrackingData
+- uid: VRC.SDKBase.VRCPlayerApi.TrackingData
   name: TrackingData
   name.vb:
   href: https://udonsharp.docs.vrchat.com/vrchat-api/#trackingdata
-  commentId: T:structVRC.SDKBase.VRCPlayerApi.TrackingData
+  commentId: T:VRC.SDKBase.VRCPlayerApi.TrackingData
   isSpec:
-  fullName: structVRC.SDKBase.VRCPlayerApi.TrackingData
+  fullName: VRC.SDKBase.VRCPlayerApi.TrackingData
   fullName.vb:
-  nameWithType: structVRC.SDKBase.VRCPlayerApi.TrackingData
+  nameWithType: VRC.SDKBase.VRCPlayerApi.TrackingData
   nameWithType.vb:
   IsValid: true
 - uid: VRC.Udon.UdonBehaviour
@@ -122,26 +133,26 @@ references:
   nameWithType: VRC.SDKBase.InputManager
   nameWithType.vb:
   IsValid: true
-- uid: structVRC.Udon.Common
+- uid: VRC.Udon.Common
   name: SerializationResult
   name.vb:
   href: https://udonsharp.docs.vrchat.com/vrchat-api/#serializationresult
-  commentId: T:structVRC.Udon.Common
+  commentId: T:VRC.Udon.Common
   isSpec:
-  fullName: structVRC.Udon.Common
+  fullName: VRC.Udon.Common
   fullName.vb:
-  nameWithType: structVRC.Udon.Common
+  nameWithType: VRC.Udon.Common
   nameWithType.vb:
   IsValid: true
-- uid: structVRC.Udon.Common.UdonInputEventArgs
+- uid: VRC.Udon.Common.UdonInputEventArgs
   name: UdonInputEventArgs
   name.vb:
   href: https://udonsharp.docs.vrchat.com/vrchat-api/#udoninputeventargs
-  commentId: T:structVRC.Udon.Common.UdonInputEventArgs
+  commentId: T:VRC.Udon.Common.UdonInputEventArgs
   isSpec:
-  fullName: structVRC.Udon.Common.UdonInputEventArgs
+  fullName: VRC.Udon.Common.UdonInputEventArgs
   fullName.vb:
-  nameWithType: structVRC.Udon.Common.UdonInputEventArgs
+  nameWithType: VRC.Udon.Common.UdonInputEventArgs
   nameWithType.vb:
   IsValid: true
 - uid: VRC.SDKBase.VRCUrl
