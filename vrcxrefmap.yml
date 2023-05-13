@@ -1,11 +1,11 @@
 ###YamlMime:XRefMap
 sorted: true 
 references: 
-- uid: VRC
+- uid: *
   name: VRC 
   name.vb:
   href: https://docs.vrchat.com/docs/
-  commentId: N:VRC
+  commentId: *:*
   isSpec:
   fullName: VRC
   fullName.vb:
