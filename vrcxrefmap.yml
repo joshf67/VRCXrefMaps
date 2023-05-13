@@ -5,8 +5,9 @@
 #    if (title?.nextElementSibling?.tagName == "P") {
 #        (title.nextElementSibling.innerText).split("/").forEach((classname) => {
 #            let titleParsed = title.innerText.replace(/[\u200B-\u200D\uFEFF]/g, '');
-#            let parsedClassName = classname.replace(/^(.*((static class)|(class)|(enum)))/gi, "").replace(/[\u200B-\u200D\uFEFF]/g, '');
-#            result += `- uid: ${titleParsed}\n name: ${titleParsed} \n name.vb:\n href: https://udonsharp.docs.vrchat.com/vrchat-api/#${titleParsed.toLowerCase().replace(" ", "-")}\n commentId: ${titleParsed}\n isSpec:\n fullName:${parsedClassName}\n fullName.vb:\n nameWithType:${parsedClassName}\n nameWithType.vb:\n IsValid: true\n` 
+#            let parsedClassName = classname.replace(/^(.*((static class)|(class)|(enum)))/gi, "").replace(/[\u200B-\u200D\uFEFF ]/g, '');
+#                
+#            result += `- uid: ${parsedClassName}\n name: ${titleParsed} \n name.vb:\n href: https://udonsharp.docs.vrchat.com/vrchat-api/#${titleParsed.toLowerCase().replace(" ", "-")}\n commentId: T:${parsedClassName}\n isSpec:\n fullName: ${parsedClassName}\n fullName.vb:\n nameWithType: ${parsedClassName}\n nameWithType.vb:\n IsValid: true\n` 
 #        })
 #    }
 #});
@@ -19,7 +20,7 @@ sorted: true
  name: DataToken 
  name.vb:
  href: https://docs.vrchat.com/docs/data-tokens
- commentId: DataToken
+ commentId: T:VRC.SDK3.Data.DataToken
  isSpec:
  fullName: VRC.SDK3.Data.DataToken
  fullName.vb:
@@ -30,7 +31,7 @@ sorted: true
  name: DataDictionary 
  name.vb:
  href: https://docs.vrchat.com/docs/data-dictionaries
- commentId: DataDictionary
+ commentId: T:VRC.SDK3.Data.DataDictionary
  isSpec:
  fullName: VRC.SDK3.Data.DataDictionary
  fullName.vb:
@@ -41,414 +42,414 @@ sorted: true
  name: DataList 
  name.vb:
  href: https://docs.vrchat.com/docs/data-lists
- commentId: DataList
+ commentId: T:VRC.SDK3.Data.DataList
  isSpec:
  fullName: VRC.SDK3.Data.DataList
  fullName.vb:
  nameWithType: VRC.SDK3.Data.DataList
  nameWithType.vb:
  IsValid: true
-- uid: Utilities
+- uid: VRC.SDKBase.Utilities
  name: Utilities 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#utilities
- commentId: Utilities
+ commentId: T:VRC.SDKBase.Utilities
  isSpec:
  fullName: VRC.SDKBase.Utilities
  fullName.vb:
  nameWithType: VRC.SDKBase.Utilities
  nameWithType.vb:
  IsValid: true
-- uid: VRCStation
+- uid: VRC.SDK3.Components.VRCStation
  name: VRCStation 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcstation
- commentId: VRCStation
+ commentId: T:VRC.SDK3.Components.VRCStation
  isSpec:
- fullName: VRC.SDK3.Components.VRCStation 
+ fullName: VRC.SDK3.Components.VRCStation
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCStation 
+ nameWithType: VRC.SDK3.Components.VRCStation
  nameWithType.vb:
  IsValid: true
-- uid: VRCStation
+- uid: VRC.SDKBase.VRCStation
  name: VRCStation 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcstation
- commentId: VRCStation
+ commentId: T:VRC.SDKBase.VRCStation
  isSpec:
  fullName: VRC.SDKBase.VRCStation
  fullName.vb:
  nameWithType: VRC.SDKBase.VRCStation
  nameWithType.vb:
  IsValid: true
-- uid: Networking
+- uid: VRC.SDKBase.Networking
  name: Networking 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#networking
- commentId: Networking
+ commentId: T:VRC.SDKBase.Networking
  isSpec:
  fullName: VRC.SDKBase.Networking
  fullName.vb:
  nameWithType: VRC.SDKBase.Networking
  nameWithType.vb:
  IsValid: true
-- uid: TrackingData
+- uid: structVRC.SDKBase.VRCPlayerApi.TrackingData
  name: TrackingData 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#trackingdata
- commentId: TrackingData
+ commentId: T:structVRC.SDKBase.VRCPlayerApi.TrackingData
  isSpec:
- fullName:struct VRC.SDKBase.VRCPlayerApi.TrackingData
+ fullName: structVRC.SDKBase.VRCPlayerApi.TrackingData
  fullName.vb:
- nameWithType:struct VRC.SDKBase.VRCPlayerApi.TrackingData
+ nameWithType: structVRC.SDKBase.VRCPlayerApi.TrackingData
  nameWithType.vb:
  IsValid: true
-- uid: UdonBehaviour
+- uid: VRC.Udon.UdonBehaviour
  name: UdonBehaviour 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#udonbehaviour
- commentId: UdonBehaviour
+ commentId: T:VRC.Udon.UdonBehaviour
  isSpec:
  fullName: VRC.Udon.UdonBehaviour
  fullName.vb:
  nameWithType: VRC.Udon.UdonBehaviour
  nameWithType.vb:
  IsValid: true
-- uid: VRCPlayerApi
+- uid: VRC.SDKBase.VRCPlayerApi
  name: VRCPlayerApi 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcplayerapi
- commentId: VRCPlayerApi
+ commentId: T:VRC.SDKBase.VRCPlayerApi
  isSpec:
  fullName: VRC.SDKBase.VRCPlayerApi
  fullName.vb:
  nameWithType: VRC.SDKBase.VRCPlayerApi
  nameWithType.vb:
  IsValid: true
-- uid: InputManager
+- uid: VRC.SDKBase.InputManager
  name: InputManager 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#inputmanager
- commentId: InputManager
+ commentId: T:VRC.SDKBase.InputManager
  isSpec:
  fullName: VRC.SDKBase.InputManager
  fullName.vb:
  nameWithType: VRC.SDKBase.InputManager
  nameWithType.vb:
  IsValid: true
-- uid: SerializationResult
+- uid: structVRC.Udon.Common
  name: SerializationResult 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#serializationresult
- commentId: SerializationResult
+ commentId: T:structVRC.Udon.Common
  isSpec:
- fullName:struct VRC.Udon.Common
+ fullName: structVRC.Udon.Common
  fullName.vb:
- nameWithType:struct VRC.Udon.Common
+ nameWithType: structVRC.Udon.Common
  nameWithType.vb:
  IsValid: true
-- uid: UdonInputEventArgs
+- uid: structVRC.Udon.Common.UdonInputEventArgs
  name: UdonInputEventArgs 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#udoninputeventargs
- commentId: UdonInputEventArgs
+ commentId: T:structVRC.Udon.Common.UdonInputEventArgs
  isSpec:
- fullName:struct VRC.Udon.Common.UdonInputEventArgs
+ fullName: structVRC.Udon.Common.UdonInputEventArgs
  fullName.vb:
- nameWithType:struct VRC.Udon.Common.UdonInputEventArgs
+ nameWithType: structVRC.Udon.Common.UdonInputEventArgs
  nameWithType.vb:
  IsValid: true
-- uid: VRCUrl
+- uid: VRC.SDKBase.VRCUrl
  name: VRCUrl 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcurl
- commentId: VRCUrl
+ commentId: T:VRC.SDKBase.VRCUrl
  isSpec:
  fullName: VRC.SDKBase.VRCUrl
  fullName.vb:
  nameWithType: VRC.SDKBase.VRCUrl
  nameWithType.vb:
  IsValid: true
-- uid: VRCUrlInputField
+- uid: VRC.SDK3.Components.VRCUrlInputField
  name: VRCUrlInputField 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcurlinputfield
- commentId: VRCUrlInputField
+ commentId: T:VRC.SDK3.Components.VRCUrlInputField
  isSpec:
  fullName: VRC.SDK3.Components.VRCUrlInputField
  fullName.vb:
  nameWithType: VRC.SDK3.Components.VRCUrlInputField
  nameWithType.vb:
  IsValid: true
-- uid: VRCMirrorReflection
+- uid: VRC.SDK3.Components.VRCMirrorReflection
  name: VRCMirrorReflection 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcmirrorreflection
- commentId: VRCMirrorReflection
+ commentId: T:VRC.SDK3.Components.VRCMirrorReflection
  isSpec:
- fullName: VRC.SDK3.Components.VRCMirrorReflection 
+ fullName: VRC.SDK3.Components.VRCMirrorReflection
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCMirrorReflection 
+ nameWithType: VRC.SDK3.Components.VRCMirrorReflection
  nameWithType.vb:
  IsValid: true
-- uid: VRCMirrorReflection
+- uid: VRC.SDKBase.VRC_MirrorReflection
  name: VRCMirrorReflection 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcmirrorreflection
- commentId: VRCMirrorReflection
+ commentId: T:VRC.SDKBase.VRC_MirrorReflection
  isSpec:
  fullName: VRC.SDKBase.VRC_MirrorReflection
  fullName.vb:
  nameWithType: VRC.SDKBase.VRC_MirrorReflection
  nameWithType.vb:
  IsValid: true
-- uid: VRCObjectPool
+- uid: VRC.SDK3.Components.VRCObjectPool
  name: VRCObjectPool 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcobjectpool
- commentId: VRCObjectPool
+ commentId: T:VRC.SDK3.Components.VRCObjectPool
  isSpec:
  fullName: VRC.SDK3.Components.VRCObjectPool
  fullName.vb:
  nameWithType: VRC.SDK3.Components.VRCObjectPool
  nameWithType.vb:
  IsValid: true
-- uid: VRCObjectSync
+- uid: VRC.SDK3.Components.VRCObjectSync
  name: VRCObjectSync 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcobjectsync
- commentId: VRCObjectSync
+ commentId: T:VRC.SDK3.Components.VRCObjectSync
  isSpec:
  fullName: VRC.SDK3.Components.VRCObjectSync
  fullName.vb:
  nameWithType: VRC.SDK3.Components.VRCObjectSync
  nameWithType.vb:
  IsValid: true
-- uid: VRCAvatarPedestal
+- uid: VRC.SDK3.Components.VRCAvatarPedestal
  name: VRCAvatarPedestal 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcavatarpedestal
- commentId: VRCAvatarPedestal
+ commentId: T:VRC.SDK3.Components.VRCAvatarPedestal
  isSpec:
- fullName: VRC.SDK3.Components.VRCAvatarPedestal 
+ fullName: VRC.SDK3.Components.VRCAvatarPedestal
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCAvatarPedestal 
+ nameWithType: VRC.SDK3.Components.VRCAvatarPedestal
  nameWithType.vb:
  IsValid: true
-- uid: VRCAvatarPedestal
+- uid: VRC.SDKBase.VRC_AvatarPedestal
  name: VRCAvatarPedestal 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcavatarpedestal
- commentId: VRCAvatarPedestal
+ commentId: T:VRC.SDKBase.VRC_AvatarPedestal
  isSpec:
  fullName: VRC.SDKBase.VRC_AvatarPedestal
  fullName.vb:
  nameWithType: VRC.SDKBase.VRC_AvatarPedestal
  nameWithType.vb:
  IsValid: true
-- uid: VRCPickup
+- uid: VRC.SDK3.Components.VRCPickup
  name: VRCPickup 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcpickup
- commentId: VRCPickup
+ commentId: T:VRC.SDK3.Components.VRCPickup
  isSpec:
- fullName: VRC.SDK3.Components.VRCPickup 
+ fullName: VRC.SDK3.Components.VRCPickup
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCPickup 
+ nameWithType: VRC.SDK3.Components.VRCPickup
  nameWithType.vb:
  IsValid: true
-- uid: VRCPickup
+- uid: VRC.SDKBase.VRC_Pickup
  name: VRCPickup 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcpickup
- commentId: VRCPickup
+ commentId: T:VRC.SDKBase.VRC_Pickup
  isSpec:
  fullName: VRC.SDKBase.VRC_Pickup
  fullName.vb:
  nameWithType: VRC.SDKBase.VRC_Pickup
  nameWithType.vb:
  IsValid: true
-- uid: VRCPortalMarker
+- uid: VRC.SDK3.Components.VRCPortalMarker
  name: VRCPortalMarker 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcportalmarker
- commentId: VRCPortalMarker
+ commentId: T:VRC.SDK3.Components.VRCPortalMarker
  isSpec:
- fullName: VRC.SDK3.Components.VRCPortalMarker 
+ fullName: VRC.SDK3.Components.VRCPortalMarker
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCPortalMarker 
+ nameWithType: VRC.SDK3.Components.VRCPortalMarker
  nameWithType.vb:
  IsValid: true
-- uid: VRCPortalMarker
+- uid: VRC.SDKBase.VRC_PortalMarker
  name: VRCPortalMarker 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcportalmarker
- commentId: VRCPortalMarker
+ commentId: T:VRC.SDKBase.VRC_PortalMarker
  isSpec:
  fullName: VRC.SDKBase.VRC_PortalMarker
  fullName.vb:
  nameWithType: VRC.SDKBase.VRC_PortalMarker
  nameWithType.vb:
  IsValid: true
-- uid: EventTiming
+- uid: s.EventTiming
  name: EventTiming 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#eventtiming
- commentId: EventTiming
+ commentId: T:s.EventTiming
  isSpec:
- fullName:s.EventTiming
+ fullName: s.EventTiming
  fullName.vb:
- nameWithType:s.EventTiming
+ nameWithType: s.EventTiming
  nameWithType.vb:
  IsValid: true
-- uid: Mobility
+- uid: VRC.SDKBase.VRCStation.Mobility
  name: Mobility 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#mobility
- commentId: Mobility
+ commentId: T:VRC.SDKBase.VRCStation.Mobility
  isSpec:
  fullName: VRC.SDKBase.VRCStation.Mobility
  fullName.vb:
  nameWithType: VRC.SDKBase.VRCStation.Mobility
  nameWithType.vb:
  IsValid: true
-- uid: NetworkEventTarget
+- uid: VRC.Udon.Common.Interfaces.NetworkEventTarget
  name: NetworkEventTarget 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#networkeventtarget
- commentId: NetworkEventTarget
+ commentId: T:VRC.Udon.Common.Interfaces.NetworkEventTarget
  isSpec:
  fullName: VRC.Udon.Common.Interfaces.NetworkEventTarget
  fullName.vb:
  nameWithType: VRC.Udon.Common.Interfaces.NetworkEventTarget
  nameWithType.vb:
  IsValid: true
-- uid: SpawnOrientation
+- uid: VRC.SDKBase.VRC_SceneDescriptor.SpawnOrientation
  name: SpawnOrientation 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#spawnorientation
- commentId: SpawnOrientation
+ commentId: T:VRC.SDKBase.VRC_SceneDescriptor.SpawnOrientation
  isSpec:
  fullName: VRC.SDKBase.VRC_SceneDescriptor.SpawnOrientation
  fullName.vb:
  nameWithType: VRC.SDKBase.VRC_SceneDescriptor.SpawnOrientation
  nameWithType.vb:
  IsValid: true
-- uid: TrackingDataType
+- uid: VRC.SDKBase.VRCPlayerApi.TrackingDataType
  name: TrackingDataType 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#trackingdatatype
- commentId: TrackingDataType
+ commentId: T:VRC.SDKBase.VRCPlayerApi.TrackingDataType
  isSpec:
  fullName: VRC.SDKBase.VRCPlayerApi.TrackingDataType
  fullName.vb:
  nameWithType: VRC.SDKBase.VRCPlayerApi.TrackingDataType
  nameWithType.vb:
  IsValid: true
-- uid: VRCInputMethod
+- uid: VRC.SDKBase.VRCInputMethod
  name: VRCInputMethod 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#vrcinputmethod
- commentId: VRCInputMethod
+ commentId: T:VRC.SDKBase.VRCInputMethod
  isSpec:
  fullName: VRC.SDKBase.VRCInputMethod
  fullName.vb:
  nameWithType: VRC.SDKBase.VRCInputMethod
  nameWithType.vb:
  IsValid: true
-- uid: HandType
+- uid: VRC.Udon.Common.HandType
  name: HandType 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#handtype
- commentId: HandType
+ commentId: T:VRC.Udon.Common.HandType
  isSpec:
  fullName: VRC.Udon.Common.HandType
  fullName.vb:
  nameWithType: VRC.Udon.Common.HandType
  nameWithType.vb:
  IsValid: true
-- uid: UdonInputEventType
+- uid: VRC.Udon.Common.UdonInputEventType
  name: UdonInputEventType 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#udoninputeventtype
- commentId: UdonInputEventType
+ commentId: T:VRC.Udon.Common.UdonInputEventType
  isSpec:
  fullName: VRC.Udon.Common.UdonInputEventType
  fullName.vb:
  nameWithType: VRC.Udon.Common.UdonInputEventType
  nameWithType.vb:
  IsValid: true
-- uid: VideoError
+- uid: VRC.SDK3.Components.Video.VideoError
  name: VideoError 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#videoerror
- commentId: VideoError
+ commentId: T:VRC.SDK3.Components.Video.VideoError
  isSpec:
  fullName: VRC.SDK3.Components.Video.VideoError
  fullName.vb:
  nameWithType: VRC.SDK3.Components.Video.VideoError
  nameWithType.vb:
  IsValid: true
-- uid: AutoHoldMode
+- uid: VRC.SDK3.Components.VRCPickup.AutoHoldMode
  name: AutoHoldMode 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#autoholdmode
- commentId: AutoHoldMode
+ commentId: T:VRC.SDK3.Components.VRCPickup.AutoHoldMode
  isSpec:
- fullName: VRC.SDK3.Components.VRCPickup.AutoHoldMode 
+ fullName: VRC.SDK3.Components.VRCPickup.AutoHoldMode
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCPickup.AutoHoldMode 
+ nameWithType: VRC.SDK3.Components.VRCPickup.AutoHoldMode
  nameWithType.vb:
  IsValid: true
-- uid: AutoHoldMode
+- uid: VRC.SDKBase.VRC_Pickup.AutoHoldMode
  name: AutoHoldMode 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#autoholdmode
- commentId: AutoHoldMode
+ commentId: T:VRC.SDKBase.VRC_Pickup.AutoHoldMode
  isSpec:
  fullName: VRC.SDKBase.VRC_Pickup.AutoHoldMode
  fullName.vb:
  nameWithType: VRC.SDKBase.VRC_Pickup.AutoHoldMode
  nameWithType.vb:
  IsValid: true
-- uid: PickupOrientation
+- uid: VRC.SDK3.Components.VRCPickup.PickupOrientation
  name: PickupOrientation 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#pickuporientation
- commentId: PickupOrientation
+ commentId: T:VRC.SDK3.Components.VRCPickup.PickupOrientation
  isSpec:
- fullName: VRC.SDK3.Components.VRCPickup.PickupOrientation 
+ fullName: VRC.SDK3.Components.VRCPickup.PickupOrientation
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCPickup.PickupOrientation 
+ nameWithType: VRC.SDK3.Components.VRCPickup.PickupOrientation
  nameWithType.vb:
  IsValid: true
-- uid: PickupOrientation
+- uid: VRC.SDKBase.VRC_Pickup.PickupOrientation
  name: PickupOrientation 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#pickuporientation
- commentId: PickupOrientation
+ commentId: T:VRC.SDKBase.VRC_Pickup.PickupOrientation
  isSpec:
  fullName: VRC.SDKBase.VRC_Pickup.PickupOrientation
  fullName.vb:
  nameWithType: VRC.SDKBase.VRC_Pickup.PickupOrientation
  nameWithType.vb:
  IsValid: true
-- uid: PickupHand
+- uid: VRC.SDK3.Components.VRCPickup.PickupHand
  name: PickupHand 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#pickuphand
- commentId: PickupHand
+ commentId: T:VRC.SDK3.Components.VRCPickup.PickupHand
  isSpec:
- fullName: VRC.SDK3.Components.VRCPickup.PickupHand 
+ fullName: VRC.SDK3.Components.VRCPickup.PickupHand
  fullName.vb:
- nameWithType: VRC.SDK3.Components.VRCPickup.PickupHand 
+ nameWithType: VRC.SDK3.Components.VRCPickup.PickupHand
  nameWithType.vb:
  IsValid: true
-- uid: PickupHand
+- uid: VRC.SDKBase.VRC_Pickup.PickupHand
  name: PickupHand 
  name.vb:
  href: https://udonsharp.docs.vrchat.com/vrchat-api/#pickuphand
- commentId: PickupHand
+ commentId: T:VRC.SDKBase.VRC_Pickup.PickupHand
  isSpec:
  fullName: VRC.SDKBase.VRC_Pickup.PickupHand
  fullName.vb:
