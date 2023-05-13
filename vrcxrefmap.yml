@@ -34,6 +34,50 @@ references:
   nameWithType: VRC.SDK3.Data.DataList
   nameWithType.vb:
   IsValid: true
+- uid: VRC.SDK3.Data.DataList
+  name: DataList 
+  name.vb:
+  href: https://docs.vrchat.com/docs/data-lists
+  commentId: VRC.SDK3.Data.DataList
+  isSpec:
+  fullName: VRC.SDK3.Data.DataList
+  fullName.vb:
+  nameWithType: VRC.SDK3.Data.DataList
+  nameWithType.vb:
+  IsValid: true
+- uid: DataList
+  name: DataList 
+  name.vb:
+  href: https://docs.vrchat.com/docs/data-lists
+  commentId: T:DataList
+  isSpec:
+  fullName: DataList
+  fullName.vb:
+  nameWithType: DataList
+  nameWithType.vb:
+  IsValid: true
+- uid: VRC.SDK3.Data.DataList
+  name: DataList 
+  name.vb:
+  href: https://docs.vrchat.com/docs/data-lists
+  commentId: DataList
+  isSpec:
+  fullName: DataList
+  fullName.vb:
+  nameWithType: DataList
+  nameWithType.vb:
+  IsValid: true
+- uid: DataList
+  name: DataList 
+  name.vb:
+  href: https://docs.vrchat.com/docs/data-lists
+  commentId: DataList
+  isSpec:
+  fullName: DataList
+  fullName.vb:
+  nameWithType: DataList
+  nameWithType.vb:
+  IsValid: true
 - uid: VRC.SDKBase.Utilities
   name: Utilities
   name.vb:
