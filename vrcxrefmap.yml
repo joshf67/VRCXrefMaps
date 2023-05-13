@@ -1,17 +1,6 @@
 ###YamlMime:XRefMap
 sorted: true 
 references: 
-- uid: *
-  name: VRC 
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: *:*
-  isSpec:
-  fullName: VRC
-  fullName.vb:
-  nameWithType: VRC
-  nameWithType.vb:
-  IsValid: true
 - uid: VRC.SDK3.Data.DataToken
   name: DataToken 
   name.vb:
