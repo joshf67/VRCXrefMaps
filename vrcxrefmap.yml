@@ -1,83 +1,6 @@
 ###YamlMime:XRefMap
 sorted: true 
 references: 
-- uid: VRCSDK3
-  name: TestReference 
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: N:VRCSDK3
-  isSpec:
-  fullName: VRCSDK3
-  fullName.vb:
-  nameWithType: VRCSDK3
-  nameWithType.vb:
-  IsValid: true
-- uid: VRC.Collections
-  name: TestReference2
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: N:VRC.Collections
-  isSpec:
-  fullName: VRC.Collections
-  fullName.vb:
-  nameWithType: VRC.Collections
-  nameWithType.vb:
-  IsValid: true
-- uid: VRC
-  name: DataToken 
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: N:VRC
-  isSpec:
-  fullName: VRC
-  fullName.vb:
-  nameWithType: VRC
-  nameWithType.vb:
-  IsValid: true
-- uid: VRC.SDK3
-  name: DataToken 
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: N:VRC.SDK3
-  isSpec:
-  fullName: VRC.SDK3
-  fullName.vb:
-  nameWithType: VRC.SDK3
-  nameWithType.vb:
-  IsValid: true
-- uid: VRC.SDK3
-  name: DataToken 
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: N:VRC.SDK3
-  isSpec:
-  fullName: VRC.SDK3
-  fullName.vb:
-  nameWithType: VRC.SDK3
-  nameWithType.vb:
-  IsValid: true
-- uid: VRC.SDK3
-  name: DataToken 
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: N:VRC.SDK3
-  isSpec:
-  fullName: VRC.SDK3
-  fullName.vb:
-  nameWithType: VRC.SDK3
-  nameWithType.vb:
-  IsValid: true
-- uid: VRC.SDK3.Data
-  name: DataToken 
-  name.vb:
-  href: https://docs.vrchat.com/docs/
-  commentId: N:VRC.SDK3.Data
-  isSpec:
-  fullName: VRC.SDK3.Data
-  fullName.vb:
-  nameWithType: VRC.SDK3.Data
-  nameWithType.vb:
-  IsValid: true
 - uid: VRC.SDK3.Data.DataToken
   name: DataToken 
   name.vb:
@@ -86,7 +9,7 @@ references:
   isSpec:
   fullName: VRC.SDK3.Data.DataToken
   fullName.vb:
-  nameWithType: VRC.SDK3.Data.DataToken
+  nameWithType: DataToken
   nameWithType.vb:
   IsValid: true
 - uid: VRC.SDK3.Data.DataDictionary
@@ -97,7 +20,7 @@ references:
   isSpec:
   fullName: VRC.SDK3.Data.DataDictionary
   fullName.vb:
-  nameWithType: VRC.SDK3.Data.DataDictionary
+  nameWithType: DataDictionary
   nameWithType.vb:
   IsValid: true
 - uid: VRC.SDK3.Data.DataList
@@ -106,7 +29,7 @@ references:
   href: https://docs.vrchat.com/docs/data-lists
   commentId: T:VRC.SDK3.Data.DataList
   isSpec:
-  fullName: VRC.SDK3.Data.DataList
+  fullName: DataList
   fullName.vb:
   nameWithType: VRC.SDK3.Data.DataList
   nameWithType.vb:
